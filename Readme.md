@@ -3,8 +3,8 @@ https://github.com/larrywbunton/cab-trip
 
 # Contains
 2 maven project setup in order
-- [cab-test-server](cab-test-server/Readme.md)
-- [cab-test-client](cab-test-client/Readme.md)
+- [cab-test-server](./cab-test-server)
+- [cab-test-client](./cab-test-client)
 
 ## Setup
 

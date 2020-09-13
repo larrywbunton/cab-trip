@@ -2,9 +2,9 @@
 https://github.com/larrywbunton/cab-trip
 
 # Contains
-2 maven project setup in order
-- [cab-test-server](./cab-test-server)
-- [cab-test-client](./cab-test-client)
+2 maven project setup in order note both have readme.md files.
+- cab-test-server
+- cab-test-client
 
 ## Setup
 

@@ -1,2 +1,2 @@
 cd .\cab-trip-server\target\
-java -jar cab-trip-server-DEV.0.0-SNAPSHOT.jar
+java -jar cab-trip-server-0.0.1-SNAPSHOT.jar

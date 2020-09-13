@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "6f23ef5a-8270-4775-8528-b15dab82d936",
+		"name": "cabtrip-server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cab Trip Count",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"trips\": [\r\n    {\r\n      \"medallion\": \"D7D598CD99978BD012A87A76A7C891B7\",\r\n      \"pickupDate\": \"2013-12-01\"\r\n    },\r\n    {\r\n      \"medallion\": \"664A1D03258065503DE78FC496906AA5\",\r\n      \"pickupDate\": \"2013-12-31\"\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/cab-trip-count?useCache=true",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cab-trip-count"
+					],
+					"query": [
+						{
+							"key": "useCache",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Clear Cache",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/clear-cache",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"clear-cache"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -18,5 +18,4 @@ https://github.com/larrywbunton/cab-trip
   - mysql < ny_cab_data_cab_trip_data_full.sql
 
 #### Note 
-On proper projects I created docker compose yaml files that can download MySQL and Tomcat on linux. 
-
+On proper projects I have created docker compose yaml files that can download linux based MySQL docker image and populate it. 

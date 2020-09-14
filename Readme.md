@@ -19,3 +19,6 @@ https://github.com/larrywbunton/cab-trip
 
 #### Note 
 On proper projects I have created docker compose yaml files that can download linux based MySQL docker image and populate it. 
+
+### TODO
+Refactor the view value objects to better name than TripList and Trip.
